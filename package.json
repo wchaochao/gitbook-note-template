@@ -1,0 +1,27 @@
+{
+  "name": "{{projectName}}",
+  "version": "1.0.0",
+  "description": "{{projectDescription}}",
+  "main": "index.js",
+  "scripts": {
+    "init": "gitbook init",
+    "build": "gitbook build",
+    "serve": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wchaochao/{{projectName}}.git"
+  },
+  "keywords": [
+    "gitbook"
+  ],
+  "author": "wchaochao",
+  "bugs": {
+    "url": "https://github.com/wchaochao/{{projectName}}/issues"
+  },
+  "homepage": "https://github.com/wchaochao/{{projectName}}#readme",
+  "devDependencies": {
+    "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.0"
+  }
+}

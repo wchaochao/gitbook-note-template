@@ -2,7 +2,7 @@
 dist ?= ../../dist
 
 # 仓库名
-repo ?= "{{projectName}}"
+repo ?= {{projectName}}
 
 # 部署
 .PHONY: deploy
